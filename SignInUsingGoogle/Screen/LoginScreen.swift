@@ -28,6 +28,7 @@ struct LoginScreen: View {
                     Spacer()
                     Button(action: {}) {
                         Text("Forgot Password?")
+                            .foregroundColor(SwiftUI.Color.red)
                     }
                 }
                 .padding(.trailing, 24)
